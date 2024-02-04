@@ -66,7 +66,7 @@ class Ball():
         self.speed -= 50
         
         if self.counter == self.num_of_shuffle:
-            self.canvas.itemconfig(self.text_id, text=english_responses[self.response],font=('Helvetika', 35, 'bold'))
+            self.canvas.itemconfig(self.text_id, text=english_responses[self.response],font=('Helvetika', 32, 'bold'))
             self.shuff_but.config(state=NORMAL)
             self.speed = 800
             self.num_of_shuffle = 12
